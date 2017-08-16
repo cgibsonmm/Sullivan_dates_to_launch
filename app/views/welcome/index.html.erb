@@ -1,8 +1,14 @@
 <div class="jumbotron">
   <h1 class="text-center">Sullivan Dates</h1>
   <p class="text-center">Your home for dating in the Catskills.</p>
-  <div class="buttons text-center">
-    <%= link_to "Log In", new_user_session_path, class: 'btn btn-primary' %>
-    <%= link_to "Sign up", new_user_registration_path, class: 'btn btn-success' %>
+  <div class="notice-alpha">
+    <p>*Notice this a Alpha release. Not all features are implemented or working,
+    At this time you are able to sign up for a profile and fill out your user profile.*</p>
   </div>
+
+  <div class="buttons text-center">
+    <%= link_to "Log In", new_user_session_path, class: 'btn btn-secondary' %>
+    <%= link_to "Sign up", new_user_registration_path, class: 'btn btn-info' %>
+  </div>
+  <p class= 'tweet-me'>Any questions please tweet me<br> <%= link_to (fa_icon 'twitter'), 'https://twitter.com/cgibsonmm' %></p>
 </div>

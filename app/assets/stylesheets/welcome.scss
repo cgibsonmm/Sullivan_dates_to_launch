@@ -1,13 +1,37 @@
 // Place all the styles related to the Welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-h1{
-  font-family: lobster;
-}
-p{
-  font-family: 'Yanone Kaffeesatz';
-  font-size: 1.2em;
-}
-.a-button{
-  font-family: 'Yanone Kaffeesatz';
+.jumbotron{
+  margin-top: 25px;
+  background-color: $this-gray;
+
+  h1{
+    font-family: lobster;
+    color: rgb(20, 183, 218);
+  }
+  p{
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 1.2em;
+    color: $new-black;
+  }
+
+  .tweet-me{
+    text-align: center;
+    a{
+      color: #138496;
+    }
+  }
+  .notice-alpha{
+    margin: 0 auto;
+    width: 25%;
+    text-align: center;
+
+    p{
+      font-size: 0.8em;
+      color: rgb(98, 150, 33);
+    }
+  }
+  .a-button{
+    font-family: 'Yanone Kaffeesatz';
+  }
 }

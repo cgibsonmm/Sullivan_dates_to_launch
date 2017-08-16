@@ -1,3 +1,11 @@
 @import "bootstrap";
+@import "font-awesome";
+@import "./colors";
 @import url('https://fonts.googleapis.com/css?family=Lobster|Yanone+Kaffeesatz');
 @import "./*";
+
+
+
+body{
+  background: image-url(bkg) center no-repeat fixed;
+}

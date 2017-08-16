@@ -20,6 +20,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'devise'
 gem 'bootstrap', '~>4.0.0.beta'
 gem 'simple_form'
+gem 'font-awesome-rails'
 
 group :development, :test do
   gem 'byebug', platform: :mri
